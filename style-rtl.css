@@ -1,0 +1,126 @@
+body, #secondary #tucson-optin .tucson-element-tagline-content, #secondary .optin-monster-api .tucson-element-tagline-content {
+    font-family: "Heebo", sans-serif;
+}
+
+.site-header .sep {
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+    border-left: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 15px;
+    padding-right: 2px;
+}
+
+.site-header .social-navigation {margin-left: 0;margin-right: 7px;}
+
+.site-header .custom-logo-link + .site-title:not(.no-site-logo) {margin-left: 0;margin-right: .35em;}
+
+ul {
+    padding-right: 0;
+}
+
+.bar .flex.justify-start {padding-right: 0;padding-left: 15px;}
+
+.bar .thumbnail {margin-right: 0;margin-left: 10px;}
+
+.widget ul, .widget li {
+    margin: 0 8px 0 0;
+}
+
+.c-settings__wrapper {
+    right: inherit;
+    left: 0;
+}
+
+.c-settings__arrow {
+    right: initial;
+    left: 9px;
+}
+
+.c-settings__label {
+    margin-right: initial;
+    margin-left: 24px;
+}
+
+.c-settings__text-size {
+    right: initial;
+    left: 18px;
+}
+
+.c-settings__switch {
+    margin-left: initial;
+    margin-right: auto;
+}
+
+
+@media only screen and (min-width: 700px)  {
+	.bar .thumbnail {
+		left: 0;
+		right: -60px;
+	}		
+}
+
+.site-search input {
+    padding-right: 3.5em;
+    padding-left: initial;
+}
+
+.c-settings__toggle {
+    margin-right: initial;
+    margin-left: 5px;
+}
+
+.search-form .search-submit {
+    right: initial;
+    left: -2px;
+}
+
+
+code {
+    direction: ltr !important;
+    display: inline-block;
+}
+
+
+.entry-content ul li, .entry-content ol li {
+    margin: 0 20px 5px 0;
+}
+
+
+@media only screen and (min-width: 850px) {
+	.widget-area__wrapper {
+		margin-left: initial;
+		margin-right: -7vw;
+	}
+}
+
+
+@media only screen and (max-width: 599px) {
+
+    .main-navigation ul:not(.sub-menu) li {
+        text-align: right !important;
+    }
+
+    .main-navigation ul:not(.sub-menu) {
+        padding: 40px 5% 140px 0;
+    }
+   
+}
+
+@media (prefers-color-scheme: dark) and (max-width: 599px){
+	.site-header {
+		background: #1c1b1b !important;
+	}
+}
+
+.entry-content .wp-block-code {
+    padding-left: 3.7em;
+}
+
+.entry-content .wp-block-code code {
+    overflow-x: auto;
+}
+
+.entry-content .wp-block-code, .entry-content .wp-block-code code {
+    background-color: #2E3440 !important;
+}

@@ -4056,7 +4056,7 @@ body:not(.single) article.page:last-of-type,
 .entry-meta span,
 .entry-meta a {
   -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 .type-page .entry-meta {
@@ -9495,7 +9495,7 @@ body:not(.single) .post-password-required .entry-content, #secondary #tucson-opt
     color: #6d6d6d !important;
   }
   .c-settings__item--night-mode {
-    display: none !important;
+    /* display: none !important; */
   }
 }
 

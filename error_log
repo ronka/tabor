@@ -1,0 +1,4 @@
+[18-Oct-2021 14:01:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/fanbo/public_html/ronka.dev/wp-content/themes/tabor/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/fanbo/public_html/ronka.dev/wp-content/themes/tabor/index.php on line 16

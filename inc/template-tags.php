@@ -455,7 +455,16 @@ if ( ! function_exists( 'tabor_posted_on' ) ) :
 		);
 
 		// Finally, let's write all of this to the page.
-		echo '<div class="entry-meta flex items-center medium header-font gray">' . wp_kses( $password_icon, tabor_svg_allowed_html() ), wp_kses( $sticky_icon, tabor_svg_allowed_html() ), wp_kses( $format_icon, tabor_svg_allowed_html() ) . '<span class="posted-on">' . wp_kses( tabor_time_link(), $allowed_html ) . '</span><span class="byline ' . esc_attr( $author_visibility ) . '"> ' . wp_kses( $byline, $allowed_html ) . '</span></div>';
+		echo '<div class="entry-meta flex items-center medium header-font gray">' .
+			wp_kses( $password_icon, tabor_svg_allowed_html() ), wp_kses( $sticky_icon, tabor_svg_allowed_html() ), wp_kses( $format_icon, tabor_svg_allowed_html() ) .
+			'<span class="posted-on mr-1">' .
+			wp_kses( tabor_time_link(), $allowed_html ) .
+			'</span><span class="byline ' .
+			esc_attr( $author_visibility ) . '"> ' .
+			wp_kses( $byline, $allowed_html ) .
+			'</span> | <span class="ml-1 read-meter">' . 
+			do_shortcode('[read_meter]') . '</span>' .
+			'</div>';
 
 	}
 endif;
